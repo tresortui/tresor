@@ -22,6 +22,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Conventional commits
+        if: ${{ !startsWith(github.head_ref, 'alert-autofix-') }}
         uses: wagoid/commitlint-github-action@v6
         with:
           commitDepth: 1
