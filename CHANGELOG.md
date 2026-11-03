@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.6.1](https://github.com/tresortui/tresor/compare/v0.6.0...v0.6.1) (2026-11-03)
+
+
+### Bug Fixes
+
+* **app:** add catch-all to apply_version_event match ([#57](https://github.com/tresortui/tresor/issues/57)) ([6f6d63b](https://github.com/tresortui/tresor/commit/6f6d63b24be4dcccd3674ee6e59d03dee1b12159))
+* **seed:** replace hardcoded db password with per-run random value ([#55](https://github.com/tresortui/tresor/issues/55)) ([e7bcc6c](https://github.com/tresortui/tresor/commit/e7bcc6c44e15a6342a4c7ee22e9f3acc67aec873))
+
+
+### Refactors
+
+* **app:** tidy Repowise findings in handle_input and apply ([#56](https://github.com/tresortui/tresor/issues/56)) ([7665159](https://github.com/tresortui/tresor/commit/7665159bac55cd2c6e7dc70241e6b1b89a926e60))
+
+
+### Build
+
+* **deps:** bump tokio from 1.53.3 to 1.54.1 ([#58](https://github.com/tresortui/tresor/issues/58)) ([ce098e4](https://github.com/tresortui/tresor/commit/ce098e43719a2201c45c3590fbe3d8d56cb76f3f))
+
 ## [0.6.0](https://github.com/njoerd114/tresor/compare/v0.5.1...v0.6.0) (2026-10-16)
 
 
